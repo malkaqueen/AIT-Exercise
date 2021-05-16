@@ -1,12 +1,11 @@
 function findReachable(graph, startAt) {
     let set = new Set([startAt]);
     let startFound = false;
-    for (item of set) {
-        for (node of graph.edges) {
+    for (let item of set) {
+        for (let node of graph.edges) {
             if (node.from === item) {
                 set.add(node.to);
-                if (node.to === startAt)
-                    startFound = true
+                if (node.to === startAt) startFound = true
             }
         }
     }
