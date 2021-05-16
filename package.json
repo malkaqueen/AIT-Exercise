@@ -1,0 +1,16 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "description": "AIT test exercise",
+  "main": "app.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Maryia Shapialevich",
+  "license": "ISC"
+}
